@@ -1,6 +1,6 @@
-function byId(idElem) {
+export function byId(idElem) {
   return document.getElementById(idElem).value;
 }
-function byElemId(idElemNM) {
+export function byElemId(idElemNM) {
   return document.getElementById(idElemNM);
 }
